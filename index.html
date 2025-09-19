@@ -1,101 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-    <meta name="theme-color" content="#2196F3">
-    <title>Ralph Velez</title>
-
-    <!-- CSS + Stylesheets -->
-    <link href="css/materialize.css" type="text/css" rel="stylesheet">
-    <link href="css/style.css" type="text/css" rel="stylesheet" >
-    <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet" >
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="theme-color" content="#1976d2">
+  <title>Ralph Velez</title>
+  <!-- Materialize CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: #f5f7fa;
+    }
+    .brand-logo {
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+    .hero {
+      background: linear-gradient(135deg, #1976d2 0%, #64b5f6 100%);
+      color: #fff;
+      padding: 80px 0 60px 0;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+    .hero p {
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin-bottom: 30px;
+    }
+    .about-section {
+      padding: 60px 0;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      margin-top: -40px;
+    }
+    .footer {
+      background: #1976d2;
+      color: #fff;
+      padding: 30px 0 10px 0;
+    }
+    .footer a {
+      color: #fff;
+      margin: 0 10px;
+      font-size: 1.2rem;
+    }
+  </style>
 </head>
+<body>
+  <!-- Navbar -->
+  <nav class="blue darken-2">
+    <div class="nav-wrapper container">
+      <a href="#top" class="brand-logo">Ralph Velez</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-<body id="top" class="scrollspy">
-
-<!-- Pre Loader -->
-<div id="loader-wrapper">
-    <div id="loader"></div>
-
-    <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"></div>
-
-</div>
-
-<!-- Nav Bar -->
-
-<div class="navbar-fixed">
-   <nav id="nav_f" class="default_color" role="navigation">
-       <div class="container">
-           <div class="nav-wrapper"><a id="logo-container" href="#top" class="brand-logo">Raphael Velez</a>
-           <ul id="nav-mobile" class="right side-nav">
-           </ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-           </div>
-       </div>
-   </nav>
-</div>
-
-<!-- About me Section -->
-
-<div id="intro" class="section scrollspy">
+  <!-- Hero Section -->
+  <section class="hero" id="top">
     <div class="container">
-        <div class="row">
-            <div  class="col s12">
-                <h2 class="center header text_h2"> I'm a simple person, I enjoy my family, work, friends, technology, and the occasional round of golf.</h2>
-            </div>
-        </div>
+      <h1>Hello, I'm Ralph Velez</h1>
+      <p>I enjoy my family, work, friends, technology, and the occasional round of golf.</p>
+      <a href="about.html" target="_blank" class="btn-large white blue-text text-darken-2 waves-effect waves-light">Learn More</a>
     </div>
-</div>
-<!-- Life Section -->
+  </section>
 
-<!--About me Section once you press Life-->
-
-<!-- Footer -->
-
-<footer id="contact" class="page-footer default_color scrollspy">
+  <!-- About Section -->
+  <section class="about-section" id="about">
     <div class="container">
-        <div class="row">
-            <div class="col l6 s12">
-                <form class="col s12">
-                    <div class="row">
-                      <div class="row">
-                        <form class="col s12">
-                          <div class="row">
-                            <div class="input-field col s6">
-
-                            </div>
-
-                          </div>
-                          <div class="row">
-
-                          </div>
-                        </form>
-                      </div>
-
-                    </div>
-                </form>
-            </div>
-            <div class="col l3 s12">
-                <h5 class="white-text">velez.rocks</h5>
-            </div>
+      <div class="row valign-wrapper">
+        <div class="col s12 m6">
+          <img src="https://media.licdn.com/dms/image/v2/C4D03AQFvjz83-24b1g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517819084093?e=1761177600&v=beta&t=Tre3-1JM8X3R5SS0eYEk7K6blN6wqnXzayN4LEav1uE" alt="Ralph Velez" class="responsive-img circle z-depth-2" style="max-width:180px;">
         </div>
-    </div>
-    <div class="footer-copyright default_color">
-        <div class="container">
-            Creation by <a class="white-text" href="http://velez.rocks">Raphael Velez</a>.
+        <div class="col s12 m6">
+          <h4>About Me</h4>
+          <p>
+            I'm a simple person who values meaningful connections and lifelong learning. My passions include software engineering, cloud technologies, and helping others succeed. When I'm not working, you'll find me spending time with family, enjoying good food, or playing golf.
+          </p>
         </div>
+      </div>
     </div>
+  </section>
 
-</footer>
-<!--  Scripts-->
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="js/materialize.js"></script>
-<script src="js/init.js"></script>
+  <!-- Contact & Footer -->
+  <footer class="footer" id="contact">
+    <div class="container center-align">
+      <h5>Connect with me</h5>
+      <a href="mailto:ralph@velez.rocks" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/triralph" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/raphael-velez-b06055144/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <div style="margin-top:20px;">
+        <span>Creation by <a href="http://velez.rocks" class="white-text">Ralph Velez</a>.</span>
+      </div>
+    </div>
+  </footer>
 
-<!-- End of Site -->
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
