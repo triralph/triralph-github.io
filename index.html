@@ -3,110 +3,209 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="theme-color" content="#1976d2">
-  <title>Ralph Velez</title>
-  <!-- Materialize CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
-  <!-- Font Awesome -->
+  <meta name="theme-color" content="#0a0a0a">
+  <title>Ralph Velez - Neo Brutalist</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Montserrat', sans-serif;
-      background: #f5f7fa;
-    }
-    .brand-logo {
-      font-weight: 700;
-      letter-spacing: 2px;
-    }
-    .hero {
-      background: linear-gradient(135deg, #1976d2 0%, #64b5f6 100%);
-      color: #fff;
-      padding: 80px 0 60px 0;
-      text-align: center;
-    }
-    .hero h1 {
-      font-size: 3rem;
-      margin-bottom: 20px;
-      font-weight: 700;
-    }
-    .hero p {
-      font-size: 1.5rem;
-      font-weight: 400;
-      margin-bottom: 30px;
-    }
-    .about-section {
-      padding: 60px 0;
-      background: #fff;
-      border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-      margin-top: -40px;
-    }
-    .footer {
-      background: #1976d2;
-      color: #fff;
-      padding: 30px 0 10px 0;
-    }
-    .footer a {
-      color: #fff;
-      margin: 0 10px;
-      font-size: 1.2rem;
-    }
-  </style>
+  <link href="css/neo-brutalist.css" rel="stylesheet">
 </head>
 <body>
-  <!-- Navbar -->
-  <nav class="blue darken-2">
-    <div class="nav-wrapper container">
-      <a href="#top" class="brand-logo">Ralph Velez</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container">
+      <div class="nav-content">
+        <a href="#top" class="logo">RALPH.VELEZ</a>
+        <div class="nav-links">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#interests" class="nav-link">INTERESTS</a>
+          <a href="#contact" class="nav-link">CONTACT</a>
+        </div>
+      </div>
     </div>
   </nav>
 
   <!-- Hero Section -->
   <section class="hero" id="top">
     <div class="container">
-      <h1>Hello, I'm Ralph Velez</h1>
-      <p>I enjoy my family, work, friends, technology, and the occasional round of golf.</p>
-      <a href="about.html" target="_blank" class="btn-large white blue-text text-darken-2 waves-effect waves-light">Learn More</a>
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="glitch-wrapper">
+            <h1 class="hero-title">
+              HELLO,<br>
+              I'M RALPH<br>
+              VELEZ
+            </h1>
+          </div>
+          <div class="hero-tags">
+            <span class="tag tag-cyan">FAMILY</span>
+            <span class="tag tag-pink">WORK</span>
+            <span class="tag tag-yellow">TECH</span>
+            <span class="tag tag-green">GOLF</span>
+          </div>
+          <p class="hero-subtitle">
+            I enjoy my family, work, friends, technology,<br class="hide-mobile"> 
+            and the occasional round of golf.
+          </p>
+          <a href="#interests" class="btn-brutal btn-brutal-primary">
+            LEARN MORE
+            <span class="btn-arrow">→</span>
+          </a>
+        </div>
+        <div class="hero-image-wrapper">
+          <div class="image-frame">
+            <img src="img/ralph-profile.jpg" alt="Ralph Velez" class="profile-img">
+            <div class="image-border"></div>
+            <div class="floating-badge">
+              <i class="fab fa-aws"></i>
+              <div class="badge-label">CERTIFIED</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- About Section -->
   <section class="about-section" id="about">
     <div class="container">
-      <div class="row valign-wrapper">
-        <div class="col s12 m6">
-          <img src="https://media.licdn.com/dms/image/v2/C4D03AQFvjz83-24b1g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517819084093?e=1761177600&v=beta&t=Tre3-1JM8X3R5SS0eYEk7K6blN6wqnXzayN4LEav1uE" alt="Ralph Velez" class="responsive-img circle z-depth-2" style="max-width:180px;">
-        </div>
-        <div class="col s12 m6">
-          <h4>About Me</h4>
+      <h2 class="section-title center">
+        <span class="title-bracket">[</span>
+        ABOUT ME
+        <span class="title-bracket">]</span>
+      </h2>
+      <div class="about-content-centered">
+        <div class="about-text">
           <p>
-            I'm a simple person who values meaningful connections and lifelong learning. My passions include software engineering, cloud technologies, and helping others succeed. When I'm not working, you'll find me spending time with family, enjoying good food, or playing golf.
+            I'm a simple person who values meaningful connections and lifelong learning. 
+            My passions include software engineering, cloud technologies, and helping others succeed.
           </p>
+          <p>
+            When I'm not working, you'll find me spending time with family, enjoying good food, 
+            or playing golf.
+          </p>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-box stat-box-cyan">
+            <div class="stat-number">15+</div>
+            <div class="stat-label">YEARS EXP</div>
+          </div>
+          <div class="stat-box stat-box-pink">
+            <div class="stat-number">∞</div>
+            <div class="stat-label">PASSION</div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Contact & Footer -->
-  <footer class="footer" id="contact">
-    <div class="container center-align">
-      <h5>Connect with me</h5>
-      <a href="mailto:ralph@velez.rocks" title="Email"><i class="fas fa-envelope"></i></a>
-      <a href="https://github.com/triralph" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/raphael-velez-b06055144/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <div style="margin-top:20px;">
-        <span>Creation by <a href="http://velez.rocks" class="white-text">Ralph Velez</a>.</span>
+  <!-- Interests Section -->
+  <section class="interests-section" id="interests">
+    <div class="container">
+      <h2 class="section-title center">
+        <span class="title-bracket">[</span>
+        THINGS I LIKE
+        <span class="title-bracket">]</span>
+      </h2>
+      <div class="interests-grid">
+        
+        <div class="interest-card interest-card-cyan">
+          <div class="interest-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3 class="interest-title">FAMILY & FRIENDS</h3>
+          <p class="interest-text">
+            Spending quality time with loved ones is my top priority.
+          </p>
+          <div class="interest-corner"></div>
+        </div>
+
+        <div class="interest-card interest-card-pink">
+          <div class="interest-icon">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <h3 class="interest-title">WORK</h3>
+          <p class="interest-text">
+            I enjoy solving problems and building technology that helps others.
+          </p>
+          <div class="interest-corner"></div>
+        </div>
+
+        <div class="interest-card interest-card-yellow">
+          <div class="interest-icon">
+            <i class="fas fa-microchip"></i>
+          </div>
+          <h3 class="interest-title">TECHNOLOGY</h3>
+          <p class="interest-text">
+            I'm passionate about software engineering, cloud, and automation.
+          </p>
+          <div class="interest-corner"></div>
+        </div>
+
+        <div class="interest-card interest-card-green">
+          <div class="interest-icon">
+            <i class="fas fa-golf-ball"></i>
+          </div>
+          <h3 class="interest-title">GOLF</h3>
+          <p class="interest-text">
+            I love the challenge and relaxation that comes with a round of golf.
+          </p>
+          <div class="interest-corner"></div>
+        </div>
+
+        <div class="interest-card interest-card-purple">
+          <div class="interest-icon">
+            <i class="fas fa-utensils"></i>
+          </div>
+          <h3 class="interest-title">GOOD FOOD</h3>
+          <p class="interest-text">
+            Exploring new cuisines and sharing meals with friends and family.
+          </p>
+          <div class="interest-corner"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <h2 class="section-title center">
+        <span class="title-bracket">[</span>
+        LET'S CONNECT
+        <span class="title-bracket">]</span>
+      </h2>
+      <div class="contact-grid">
+        <a href="mailto:ralph@velez.rocks" class="contact-card contact-card-yellow">
+          <i class="fas fa-envelope contact-icon"></i>
+          <span class="contact-label">EMAIL</span>
+          <span class="contact-arrow">↗</span>
+        </a>
+        <a href="https://github.com/triralph" target="_blank" class="contact-card contact-card-pink">
+          <i class="fab fa-github contact-icon"></i>
+          <span class="contact-label">GITHUB</span>
+          <span class="contact-arrow">↗</span>
+        </a>
+        <a href="https://www.linkedin.com/in/raphael-velez-b06055144/" target="_blank" class="contact-card contact-card-cyan">
+          <i class="fab fa-linkedin contact-icon"></i>
+          <span class="contact-label">LINKEDIN</span>
+          <span class="contact-arrow">↗</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-text">
+          © 2026 RALPH VELEZ // BUILT WITH <span class="footer-heart">♥</span>
+        </p>
       </div>
     </div>
   </footer>
 
-  <!-- Scripts -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="js/neo-brutalist.js"></script>
 </body>
 </html>
